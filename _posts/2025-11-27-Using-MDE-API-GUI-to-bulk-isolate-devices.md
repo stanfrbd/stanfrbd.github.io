@@ -35,7 +35,7 @@ You can find my fork here: [stanfrbd/mde-api-gui](https://github.com/stanfrbd/md
 
 ## Requirements 
 
-1. Create Azure AD application as described here: https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/apis-intro?view=o365-worldwide
+1. Create Azure AD application as described [here](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/apis-intro?view=o365-worldwide).
 2. Grant the following API permissions to the application:
 
 | Permission | Description |
@@ -58,7 +58,7 @@ _Screenshot of the app_
 
 The CSV file shoud look like this (with hosts FQDNs):
 
-```csv
+```
 Name
 machine1.domain.local
 machine2.domain.local
@@ -73,5 +73,6 @@ machine.another.domain
     * **Isolate**/Release device.
 5. Verify actions result with **Logs** text box.
 
-> If you use this script with more than 100 devices, it will take a lot of time: ~1min30s for 100 devices because of API rates limits. So if you have more than 100 devices, use multiple CSV and re-do the operation.
+> If you use this script with more than 100 devices, it will take a lot of time: ~1min30s for 100 devices because of API rates limits.  
+> So if you have more than 100 devices, use multiple CSV and re-do the operation.
 {: .prompt-warning }
