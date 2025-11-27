@@ -6,8 +6,6 @@ tags: [mde, api, open-source]
 description: Learn how to use the MDE API GUI tool to bulk isolate devices in Microsoft Defender for Endpoint, enhancing your incident response capabilities.
 ---
 
-# Using MDE API GUI to Bulk Isolate Devices
-
 It is really important to be efficient in incident response. \
 I use a lot of automation to speed up my investigations and remediation tasks. \
 One of the tools commonly used in the industry is Microsoft Defender for Endpoint (MDE). \
