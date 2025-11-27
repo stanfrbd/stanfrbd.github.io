@@ -6,16 +6,18 @@ tags: [mde, api, open-source]
 description: Learn how to use the MDE API GUI tool to bulk isolate devices in Microsoft Defender for Endpoint, enhancing your incident response capabilities.
 ---
 
-It is really important to be efficient in incident response. \
+It is really important to be **efficient** during incident response. \
 I use a lot of automation to speed up my investigations and remediation tasks. \
-One of the tools commonly used in the industry is Microsoft Defender for Endpoint (MDE). \
-MDE provides an API that allows security professionals to automate various tasks, including isolating devices.
+One of the tools commonly used in the industry is Microsoft Defender for Endpoint (MDE).  
+
+> MDE provides an API that allows security professionals to automate various tasks, including isolating devices.
+{: .prompt-tip }
 
 In an incident, you want to be able to:
 
-* Quickly isolate compromised devices to prevent lateral movement.
-* Add or remove a tag on devices for tracking and reporting purposes.
-* Export log of actions taken for compliance and auditing.
+* **Quickly isolate** compromised devices to prevent lateral movement.
+* **Add or remove a tag** on devices for tracking and reporting purposes.
+* **Export log** of actions taken for compliance and auditing.
 
 Microsoft developed (3 years ago) a GUI tool to interact with the MDE API, making it easier for security teams to perform bulk actions without writing code. \
 You can find the tool on GitHub: [MDE API GUI](https://github.com/microsoft/mde-api-gui).
@@ -71,6 +73,6 @@ machine.another.domain
     * **Isolate**/Release device.
 5. Verify actions result with **Logs** text box.
 
-> If you use this script with more than 100 devices, it will take a lot of time: ~1min30s for 100 devices because of API rates limits.  
+> If you use this script with more than 100 devices, it will take a lot of time: **~1min30s for 100 devices** because of API rates limits (100 calls per minute).  
 > So if you have more than 100 devices, use multiple CSV and re-do the operation.
 {: .prompt-warning }
